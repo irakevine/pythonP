@@ -162,3 +162,8 @@ print(news_ticker)
 # If the number is NOT a prime number, it should print "[number] is not a prime number", and a factor of that number, other than 1 and the number itself: "[factor] is a factor of [number]".
 
 # 7 IS a prime number 26 is NOT a prime number, because 2 is a factor of 26
+
+letters = ['a', 'b', 'c', 'd', 'e']
+for i, letter in enumerate(letters):
+    print(i, letter)
+    
