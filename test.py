@@ -251,3 +251,4 @@ first_names = [name.split()[0].lower() for name in names]
 # Print the resulting list of first names in lowercase
 print(first_names)
 
+# Use a list comprehension to create a list multiples_3 containing the first 20 multiples of 3.
