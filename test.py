@@ -185,3 +185,30 @@ for x, y, z, label in zip(x_coord, y_coord, z_coord, labels):
 
 # Print the list of points
 print(points)
+
+# Use zip to create a dictionary cast that uses names as keys and heights as values.
+cast_names = ["Barney", "Robin", "Ted", "Lily", "Marshall"]
+cast_heights = [72, 68, 72, 66, 76]
+
+# Create the dictionary using zip
+cast = dict(zip(cast_names, cast_heights))
+
+# Print the resulting dictionary
+print(cast)
+
+# Unzip the cast tuple into two names and heights tuples.
+cast = (("Barney", 72), ("Robin", 68), ("Ted", 72), ("Lily", 66), ("Marshall", 76))
+
+# Define names and heights tuples
+names = ()
+heights = ()
+
+# Unzip the cast tuple
+for actor in cast:
+    actor_name, actor_height = actor
+    names += (actor_name,)
+    heights += (actor_height,)
+
+# Print the names and heights tuples
+print("Names:", names)
+print("Heights:", heights)
