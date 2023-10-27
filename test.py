@@ -126,17 +126,22 @@ headlines = ["Local Bear Eaten by Man",
 
 news_ticker = ""
 
-
+# Write a loop to create the news ticker
 for headline in headlines:
-  
-    if len(news_ticker) + len(headline) + 1 <= 140:
-       
+    # Calculate the available space for the current headline
+    space_remaining = 140 - len(news_ticker)
+    
+    # Check if there's enough space to add the next headline along with a space
+    if space_remaining >= len(headline) + 1:
+        # If there's enough space, add the headline and a space to the news ticker
         news_ticker += headline + " "
     else:
-        
-        characters_remaining = 140 - len(news_ticker) - 1
-        news_ticker += headline[:characters_remaining]
+        # If there's not enough space, truncate the headline and break the loop
+        news_ticker += headline[:space_remaining]
         break
 
+# Ensure the ticker is exactly 140 characters by trimming if needed
+news_ticker = news_ticker[:140]
 
+# Print the resulting news ticker
 print(news_ticker)
