@@ -222,3 +222,22 @@ data_transpose = tuple(zip(*data))
 # Print the transposed data
 for row in data_transpose:
     print(row)
+
+# Use enumerate to modify the cast list so that each element contains the name followed by the character's corresponding height. For example, the first element of cast should change from "Barney Stinson" to "Barney Stinson 72".
+
+cast = ["Barney Stinson", "Robin Scherbatsky", "Ted Mosby", "Lily Aldrin", "Marshall Eriksen"]
+heights = [72, 68, 72, 66, 76]
+
+# Create a new list to store the modified cast information
+modified_cast = []
+
+# Iterate through the cast list using enumerate
+for index, character in enumerate(cast):
+    # Append the name followed by the character's height to the modified_cast list
+    modified_cast.append(f"{character} {heights[index]}")
+
+# Replace the original cast list with the modified_cast list
+cast = modified_cast
+
+# Print the modified cast list
+print(cast)
