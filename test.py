@@ -241,3 +241,13 @@ cast = modified_cast
 
 # Print the modified cast list
 print(cast)
+
+# Use a list comprehension to create a new list first_names containing just the first names in names in lowercase.
+names = ["Rick Sanchez", "Morty Smith", "Summer Smith", "Jerry Smith", "Beth Smith"]
+
+# Use a list comprehension to extract and convert first names to lowercase
+first_names = [name.split()[0].lower() for name in names]
+
+# Print the resulting list of first names in lowercase
+print(first_names)
+
