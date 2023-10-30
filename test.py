@@ -268,3 +268,69 @@ passed = [name for name, score in scores.items() if score >= 65]
 
 # Print the list of names of students who passed
 print(passed)
+
+def readable_timedelta(days):
+    weeks = days // 7
+    remaining_days = days % 7
+
+    if weeks == 1:
+        week_str = "1 week"
+    else:
+        week_str = f"{weeks} weeks"
+
+    if remaining_days == 1:
+        day_str = "1 day"
+    else:
+        day_str = f"{remaining_days} days"
+
+    if weeks == 0:
+        return f"{day_str}"
+    elif remaining_days == 0:
+        return f"{week_str}"
+    else:
+        return f"{week_str} and {day_str}"
+
+# Example usage:
+days = 10
+result = readable_timedelta(days)
+print(result)
+
+# Write a function named population_density that takes two arguments, population and land_area, and returns a population density calculated from those values.
+
+def population_density(population, land_area):
+    if land_area == 0:
+        return "Land area cannot be zero."
+    
+    density = population / land_area
+    return density
+
+# Example usage:
+population = 8000000  # Replace with the actual population value
+land_area = 1000  # Replace with the actual land area value
+
+density = population_density(population, land_area)
+print(f"Population density: {density} people per square unit")
+
+
+# map() is a higher-order built-in function that takes a function and iterable as inputs, and returns an iterator that applies the function to each element of the iterable. The code below uses map() to find the mean of each list in numbers to create the list averages. Give it a test run to see what happens.
+
+# Rewrite this code to be more concise by replacing the mean function with a lambda expression defined within the call to map().
+
+numbers = [
+              [34, 63, 88, 71, 29],
+              [90, 78, 51, 27, 45],
+              [63, 37, 85, 46, 22],
+              [51, 22, 34, 11, 18]
+           ]
+
+averages = list(map(lambda x: sum(x) / len(x), numbers))
+print(averages)
+
+# filter() is a higher-order built-in function that takes a function and iterable as inputs and returns an iterator with the elements from the iterable for which the function returns True. The code below uses filter() to get the names in cities that are fewer than 10 characters long to create the list short_cities. Give it a test run to see what happens.
+
+# Rewrite this code to be more concise by replacing the is_short function with a lambda expression defined within the call to filter().
+
+cities = ["New York City", "Los Angeles", "Chicago", "Mountain View", "Denver", "Boston"]
+
+short_cities = list(filter(lambda x: len(x) < 10, cities))
+print(short_cities)
