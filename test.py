@@ -371,3 +371,10 @@ print(short_cities)
 
 for n in range(1, 5, 6):  
     print(n)
+
+
+#     teams = ['Dragons ',',‘Wolves’,’pandas’, ’Unicorns’]
+# For home_team in teams:
+# For away_team in terms:
+# If home_team != away_team:
+# print(home_tem + “away-team”)
