@@ -378,3 +378,5 @@ for n in range(1, 5, 6):
 # For away_team in terms:
 # If home_team != away_team:
 # print(home_tem + “away-team”)
+
+# greet_friends(“Barry”)
