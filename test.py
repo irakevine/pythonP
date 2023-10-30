@@ -361,3 +361,9 @@ print(short_cities)
 # print(months[0])
 # print(months[1])
 # print(months[7])
+
+
+# def to_celsius(x):
+# Return (x-32)*5/9
+# For x in range (0,101,10):
+# print(x, to _celsius(x))
