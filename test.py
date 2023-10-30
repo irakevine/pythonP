@@ -335,4 +335,9 @@ cities = ["New York City", "Los Angeles", "Chicago", "Mountain View", "Denver", 
 short_cities = list(filter(lambda x: len(x) < 10, cities))
 print(short_cities)
 
+# x= 0
+# While x < 5:
+# print(“Not there yet, x=” + str(x))
 
+# x= x + 1
+# print(“x= ” + str (X))
