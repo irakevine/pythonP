@@ -367,3 +367,7 @@ print(short_cities)
 # Return (x-32)*5/9
 # For x in range (0,101,10):
 # print(x, to _celsius(x))
+
+
+for n in range(1, 5, 6):  
+    print(n)
