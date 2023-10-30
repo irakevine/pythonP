@@ -341,3 +341,17 @@ print(short_cities)
 
 # x= x + 1
 # print(“x= ” + str (X))
+
+# my_variable= 5
+# While my_variable < 10:
+# print(“Hello”)
+# my_variable +=1
+# x= 1 
+# sum= 0
+# While x < 10:
+# Sum += x
+# x+ = 1
+# Product = 1
+# While x<10:
+# Product = product * x 
+# x+= 1
