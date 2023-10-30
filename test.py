@@ -355,3 +355,9 @@ print(short_cities)
 # While x<10:
 # Product = product * x 
 # x+= 1
+
+
+# months= [‘January’, ‘February’,’March’,’April ’,’septermber’,’october’,’november’,’December’ ]
+# print(months[0])
+# print(months[1])
+# print(months[7])
