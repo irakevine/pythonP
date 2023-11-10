@@ -492,3 +492,8 @@ z = np.array([1, 2.5, 4])
 print('The elements in x are of type:', x.dtype)
 print('The elements in y are of type:', y.dtype)
 print('The elements in z are of type:', z.dtype)
+
+# The elements in x are of type: int64
+# The elements in y are of type: float64
+# The elements in z are of type: float64
+
