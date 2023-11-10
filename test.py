@@ -508,3 +508,5 @@ x = np.array([1.5, 2.2, 3.7, 4.0, 5.9], dtype = np.int64)
 print('x = ', x)
 print('The elements in x are of type:', x.dtype)
 
+# x = [1 2 3 4 5]
+
