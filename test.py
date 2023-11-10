@@ -510,3 +510,4 @@ print('The elements in x are of type:', x.dtype)
 
 # x = [1 2 3 4 5]
 
+# Example 2 - Using a 2-D Array (Rank #2 Array)
