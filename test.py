@@ -399,3 +399,7 @@ with open("camelot.txt") as song:
 # start= time.time()
 # sum(x) / len(x)
 # print (time.time()- start)
+
+# start =time.time()
+# np.mean(x)
+# print(time.time() - start)
