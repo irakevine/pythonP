@@ -442,3 +442,14 @@ Y.ndim
 ## The tuple (2, 3, 4( passed as an argument represents the shape of the ndarray
 y = np.zeros((2, 3, 4))
 y.ndim
+
+# Example 1.a - Using a 1-D Array of Integers
+## We create a 1D ndarray that contains only integers
+x = np.array([1, 2, 3, 4, 5])
+
+
+## We print information about x
+print('x = ', x)
+print('x has dimensions:', x.shape)
+print('x is an object of type:', type(x))
+print('The elements in x are of type:', x.dtype)
