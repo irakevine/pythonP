@@ -453,3 +453,14 @@ print('x = ', x)
 print('x has dimensions:', x.shape)
 print('x is an object of type:', type(x))
 print('The elements in x are of type:', x.dtype)
+
+# Example 1.b - Using 1-D Array of Strings
+
+# ## We create a rank 1 ndarray that only contains strings
+# x = np.array(['Hello', 'World'])
+
+# ## We print information about x
+# print('x = ', x)
+# print('x has dimensions:', x.shape)
+# print('x is an object of type:', type(x))
+# print('The elements in x are of type:', x.dtype)
