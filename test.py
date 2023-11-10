@@ -533,3 +533,5 @@ print('The elements in Y are of type:', Y.dtype)
 # Y has a total of 12 elements
 # Y is an object of type: class 'numpy.ndarray'
 # The elements in Y are of type: int64
+
+# Example 3 - Save the NumPy array to a File
