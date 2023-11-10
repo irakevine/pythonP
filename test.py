@@ -383,3 +383,19 @@ for n in range(1, 5, 6):
 
 # with open('another_file.txt', 'r') as f:
 # file_data = f.read()
+
+with open("camelot.txt") as song:
+    print(song.read(2))
+    print(song.read(8))
+    print(song.read())
+
+
+
+#     import time 
+# import numpy as np
+
+# X = np.random.random(10000000)
+
+# start= time.time()
+# sum(x) / len(x)
+# print (time.time()- start)
