@@ -464,3 +464,4 @@ print('The elements in x are of type:', x.dtype)
 # print('x has dimensions:', x.shape)
 # print('x is an object of type:', type(x))
 # print('The elements in x are of type:', x.dtype)
+x = ['Hello' 'World']
