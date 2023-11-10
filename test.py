@@ -553,3 +553,5 @@ print()
 ## We print information about the ndarray we loaded
 print('y is an object of type:', type(y))
 print('The elements in y are of type:', y.dtype)
+
+# y = [1 2 3 4 5]
