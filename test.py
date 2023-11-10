@@ -522,3 +522,9 @@ print('Y has dimensions:', Y.shape)
 print('Y has a total of', Y.size, 'elements')
 print('Y is an object of type:', type(Y))
 print('The elements in Y are of type:', Y.dtype)
+
+# Y =
+# [[ 1 2 3]
+# [ 4 5 6]
+# [ 7 8 9]
+# [10 11 12]]
