@@ -452,7 +452,7 @@ print('x has dimensions:', x.shape)
 print('x is an object of type:', type(x))
 print('The elements in x are of type:', x.dtype)
 
-x = [1 2 3 4 5]
+# x = [1 2 3 4 5]
 
 # Example 1.b - Using 1-D Array of Strings
 
@@ -465,3 +465,14 @@ x = [1 2 3 4 5]
 # print('x is an object of type:', type(x))
 # print('The elements in x are of type:', x.dtype)
 x = ['Hello' 'World']
+
+# Example 1.c - Using a 1-D Array of Mixed Datatype
+
+## We create a rank 1 ndarray from a Python list that contains integers and strings
+# x = np.array([1, 2, 'World'])
+
+# ## We print information about x
+# print('x = ', x)
+# print('x has dimensions:', x.shape)
+# print('x is an object of type:', type(x))
+# print('The elements in x are of type:', x.dtype)
