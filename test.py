@@ -403,3 +403,20 @@ with open("camelot.txt") as song:
 # start =time.time()
 # np.mean(x)
 # print(time.time() - start)
+
+# Here is the code demonstrated in the video above:
+
+# Why use NumPy?
+# import time
+# import numpy as np
+# x = np.random.random(100000000)
+
+# # Case 1
+# start = time.time()
+# sum(x) / len(x)
+# print(time.time() - start)
+
+# # Case 2
+# start = time.time()
+# np.mean(x)
+# print(time.time() - start)
