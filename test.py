@@ -535,3 +535,9 @@ print('The elements in Y are of type:', Y.dtype)
 # The elements in Y are of type: int64
 
 # Example 3 - Save the NumPy array to a File
+
+## We create a rank 1 ndarray
+x = np.array([1, 2, 3, 4, 5])
+
+## We save x into the current directory as 
+np.save('my_array', x)
