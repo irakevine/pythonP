@@ -476,3 +476,19 @@ x = ['Hello' 'World']
 # print('x has dimensions:', x.shape)
 # print('x is an object of type:', type(x))
 # print('The elements in x are of type:', x.dtype)
+
+# Example 1.d - Using a 1-D Array of Int and Float
+
+## We create a rank 1 ndarray that contains integers
+x = np.array([1,2,3])
+
+## We create a rank 1 ndarray that contains floats
+y = np.array([1.0,2.0,3.0])
+
+## We create a rank 1 ndarray that contains integers and floats
+z = np.array([1, 2.5, 4])
+
+## We print the dtype of each ndarray
+print('The elements in x are of type:', x.dtype)
+print('The elements in y are of type:', y.dtype)
+print('The elements in z are of type:', z.dtype)
