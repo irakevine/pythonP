@@ -497,3 +497,12 @@ print('The elements in z are of type:', z.dtype)
 # The elements in y are of type: float64
 # The elements in z are of type: float64
 
+# Using a 1-D Array of Float, and specifying the dtype of each element
+
+## We create a rank 1 ndarray of floats but set the dtype to int64
+x = np.array([1.5, 2.2, 3.7, 4.0, 5.9], dtype = np.int64)
+
+## We print the dtype x
+print('x = ', x)
+print('The elements in x are of type:', x.dtype)
+
