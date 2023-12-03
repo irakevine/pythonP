@@ -555,3 +555,7 @@ print('y is an object of type:', type(y))
 print('The elements in y are of type:', y.dtype)
 
 # y = [1 2 3 4 5]
+
+
+Using the format() method
+# The format method returns a copy of the string where the {} placeholders have been replaced with the values of the variables. These variables are converted to strings if they weren't strings already. Empty placeholders are replaced by the variables passed to format in the same order.
